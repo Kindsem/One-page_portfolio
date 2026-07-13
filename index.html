@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Портфолио веб-верстальщика: адаптивные лендинги, кроссбраузерная вёрстка, HTML/CSS/JS. Примеры работ для Kwork.">
+  <meta property="og:title" content="Портфолио веб-верстальщика">
+  <meta property="og:description"
+    content="Адаптивная вёрстка лендингов, веб-приложения на чистом JavaScript. HTML5, CSS3, Flexbox, Bootstrap Grid.">
+  <meta property="og:type" content="website">
+  <title>Портфолио — веб-верстальщик</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header class="header" id="top">
+    <div class="container header__inner">
+      <a class="logo" href="#top">SM<span class="logo__dot">.</span>dev</a>
+
+      <button class="burger" type="button" aria-label="Открыть меню" aria-expanded="false" aria-controls="nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="nav" id="nav">
+        <ul class="nav__list">
+          <li><a class="nav__link" href="#about">Обо мне</a></li>
+          <li><a class="nav__link" href="#skills">Навыки</a></li>
+          <li><a class="nav__link" href="#projects">Работы</a></li>
+          <li><a class="nav__link" href="#contact">Контакты</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero__inner">
+        <p class="hero__label">Веб-верстальщик · HTML / CSS / JavaScript</p>
+        <h1 class="hero__title">Адаптивная вёрстка сайтов по макету</h1>
+        <p class="hero__text">
+          Сверстаю лендинг, многостраничный сайт или интерактивный интерфейс.
+          Семантический HTML, чистый CSS, корректное отображение на мобильных и десктопе.
+        </p>
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="#projects">Смотреть работы</a>
+          <a class="btn btn--ghost" href="https://kwork.ru/projects?fc=79" target="_blank" rel="noopener noreferrer">
+            Заказать на Kwork
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container">
+        <h2 class="section__title">Обо мне</h2>
+        <div class="about">
+          <p>
+            Верстаю адаптивные сайты по макетам Figma: лендинги, информационные страницы
+            и небольшие веб-приложения. В работах ниже — учебные и личные проекты,
+            которые показывают подход к вёрстке, адаптиву и чистому коду.
+          </p>
+          <ul class="about__list">
+            <li>Адаптив от 320 px до широких экранов</li>
+            <li>Кроссбраузерность: Chrome, Firefox, Safari, Edge</li>
+            <li>Семантическая разметка и доступность</li>
+            <li>Pixel perfect в пределах 1–2 px</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="skills">
+      <div class="container">
+        <h2 class="section__title">Навыки</h2>
+        <ul class="skills">
+          <li class="skill">HTML5</li>
+          <li class="skill">CSS3</li>
+          <li class="skill">Flexbox</li>
+          <li class="skill">CSS Grid</li>
+          <li class="skill">Bootstrap Grid</li>
+          <li class="skill">Адаптивная вёрстка</li>
+          <li class="skill">Кроссбраузерность</li>
+          <li class="skill">BEM</li>
+          <li class="skill">JavaScript</li>
+          <li class="skill">Figma</li>
+          <li class="skill">Git</li>
+          <li class="skill">SEO-разметка</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="container">
+        <h2 class="section__title">Работы</h2>
+        <p class="section__lead">От статичных лендингов до веб-приложения с графиками.</p>
+
+        <div class="projects">
+          <article class="project-card">
+            <a class="project-card__image-link" href="https://kindsem.github.io/Evklid_cross-browser/" target="_blank"
+              rel="noopener noreferrer">
+              <img class="project-card__image" src="../15_cross-browser/screenshots/desktop.jpg"
+                alt="Лендинг строительной компании Евклид — десктопная версия" width="1200" height="675" loading="lazy">
+            </a>
+            <div class="project-card__body">
+              <h3 class="project-card__title">Лендинг «Евклид»</h3>
+              <p class="project-card__text">
+                Адаптивный одностраничный лендинг строительной компании: hero-блок, «О нас»,
+                этапы работы, FAQ и форма заявки. Кроссбраузерная вёрстка с Autoprefixer.
+              </p>
+              <ul class="tags">
+                <li class="tag">HTML5</li>
+                <li class="tag">CSS3</li>
+                <li class="tag">Flexbox</li>
+                <li class="tag">Адаптив</li>
+              </ul>
+              <div class="project-card__links">
+                <a class="project-card__link" href="https://kindsem.github.io/Evklid_cross-browser/" target="_blank"
+                  rel="noopener noreferrer">Демо</a>
+                <a class="project-card__link project-card__link--muted"
+                  href="https://github.com/Kindsem/Evklid_cross-browser" target="_blank"
+                  rel="noopener noreferrer">Код</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <a class="project-card__image-link" href="https://kindsem.github.io/3D_Modeling_courses/" target="_blank"
+              rel="noopener noreferrer">
+              <img class="project-card__image" src="../16_grid/screenshots/desktop.jpg"
+                alt="Лендинг курсов 3D-моделирования — десктопная версия" width="1200" height="675" loading="lazy">
+            </a>
+            <div class="project-card__body">
+              <h3 class="project-card__title">Курсы 3D-моделирования</h3>
+              <p class="project-card__text">
+                Лендинг образовательной платформы на Bootstrap Grid: баннер, преимущества,
+                карточки преподавателей с <code>&lt;picture&gt;</code> и блок курсов.
+              </p>
+              <ul class="tags">
+                <li class="tag">HTML5</li>
+                <li class="tag">Bootstrap Grid</li>
+                <li class="tag">picture</li>
+                <li class="tag">Адаптив</li>
+              </ul>
+              <div class="project-card__links">
+                <a class="project-card__link" href="https://kindsem.github.io/3D_Modeling_courses/" target="_blank"
+                  rel="noopener noreferrer">Демо</a>
+                <a class="project-card__link project-card__link--muted"
+                  href="https://github.com/Kindsem/3D_Modeling_courses" target="_blank"
+                  rel="noopener noreferrer">Код</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <a class="project-card__image-link project-card__image-link--calculator"
+              href="https://credit-calculator.online/" target="_blank" rel="noopener noreferrer">
+              <div class="project-card__preview project-card__preview--calculator" aria-hidden="true">
+                <span class="preview__label">Кредитный калькулятор</span>
+                <span class="preview__value">12 500 ₽ / мес</span>
+                <span class="preview__chart"></span>
+              </div>
+            </a>
+            <div class="project-card__body">
+              <h3 class="project-card__title">Кредитный калькулятор</h3>
+              <p class="project-card__text">
+                Рабочий онлайн-сервис: расчёт аннуитетного платежа, график погашения,
+                диаграмма долга и процентов. Адаптивный интерфейс, SEO и юридические страницы.
+              </p>
+              <ul class="tags">
+                <li class="tag">HTML</li>
+                <li class="tag">CSS</li>
+                <li class="tag">JavaScript</li>
+                <li class="tag">Chart.js</li>
+              </ul>
+              <div class="project-card__links">
+                <a class="project-card__link" href="https://credit-calculator.online/" target="_blank"
+                  rel="noopener noreferrer">Демо</a>
+                <a class="project-card__link project-card__link--muted"
+                  href="https://github.com/Kindsem/credit_calculator" target="_blank"
+                  rel="noopener noreferrer">Код</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <a class="project-card__image-link" href="https://kindsem.github.io/history_of_Russia/" target="_blank"
+              rel="noopener noreferrer">
+              <img class="project-card__image" src="../history_of_Russia/img/Christ_the_Saviour_Cathedral_Moscow.jpg"
+                alt="Исторический сайт — храм Христа Спасителя" width="1200" height="675" loading="lazy">
+            </a>
+            <div class="project-card__body">
+              <h3 class="project-card__title">Летописный свод России</h3>
+              <p class="project-card__text">
+                Многостраничный информационный сайт с хронологической таблицей,
+                раскрывающимися разделами и дополнительными материалами по истории.
+              </p>
+              <ul class="tags">
+                <li class="tag">HTML</li>
+                <li class="tag">CSS</li>
+                <li class="tag">JavaScript</li>
+                <li class="tag">Многостраничник</li>
+              </ul>
+              <div class="project-card__links">
+                <a class="project-card__link" href="https://kindsem.github.io/history_of_Russia/" target="_blank"
+                  rel="noopener noreferrer">Демо</a>
+                <a class="project-card__link project-card__link--muted"
+                  href="https://github.com/Kindsem/history_of_Russia" target="_blank"
+                  rel="noopener noreferrer">Код</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="services">
+      <div class="container">
+        <h2 class="section__title">Что могу сделать</h2>
+        <div class="services">
+          <article class="service">
+            <h3 class="service__title">Вёрстка лендинга</h3>
+            <p class="service__text">По макету Figma / PSD. Адаптив, формы, hover-состояния, готовность к публикации.</p>
+          </article>
+          <article class="service">
+            <h3 class="service__title">Адаптив и правки</h3>
+            <p class="service__text">Исправлю вёрстку, доведу мобильную версию, устраню кроссбраузерные баги.</p>
+          </article>
+          <article class="service">
+            <h3 class="service__title">Вёрстка + JS</h3>
+            <p class="service__text">Калькуляторы, табы, аккордеоны, слайдеры и интерактив без тяжёлых фреймворков.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="container">
+        <h2 class="section__title">Контакты</h2>
+        <p class="section__lead">Готов обсудить проект. Напишите на Kwork или посмотрите код на GitHub.</p>
+        <div class="contact">
+          <a class="contact__link" href="https://kwork.ru/projects?fc=79" target="_blank" rel="noopener noreferrer">
+            Kwork — биржа проектов
+          </a>
+          <a class="contact__link" href="https://github.com/Kindsem" target="_blank" rel="noopener noreferrer">
+            GitHub
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>© 2026 Сергей Минеев · Портфолио веб-верстальщика</p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
