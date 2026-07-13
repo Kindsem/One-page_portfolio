@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description"
-    content="Портфолио веб-верстальщика: адаптивные лендинги, кроссбраузерная вёрстка, HTML/CSS/JS. Примеры работ для Kwork.">
+    content="Портфолио веб-верстальщика: адаптивные лендинги, калькуляторы, HTML/CSS/JS. Примеры работ для Kwork.">
   <meta property="og:title" content="Портфолио веб-верстальщика">
   <meta property="og:description"
     content="Адаптивная вёрстка лендингов, веб-приложения на чистом JavaScript. HTML5, CSS3, Flexbox, Bootstrap Grid.">
@@ -63,7 +63,8 @@
         <div class="about">
           <p>
             Верстаю адаптивные сайты по макетам Figma: лендинги, информационные страницы
-            и небольшие веб-приложения. В работах ниже — учебные и личные проекты,
+            и небольшие веб-приложения — калькуляторы, формы, интерактивные страницы.
+            В работах ниже — учебные и личные проекты,
             которые показывают подход к вёрстке, адаптиву и чистому коду.
           </p>
           <ul class="about__list">
@@ -99,7 +100,7 @@
     <section class="section" id="projects">
       <div class="container">
         <h2 class="section__title">Работы</h2>
-        <p class="section__lead">От статичных лендингов до веб-приложения с графиками.</p>
+        <p class="section__lead">5 проектов: от лендингов по макету до интерактивных калькуляторов и информационных сайтов.</p>
 
         <div class="projects">
           <article class="project-card">
@@ -159,13 +160,10 @@
           </article>
 
           <article class="project-card">
-            <a class="project-card__image-link project-card__image-link--calculator"
-              href="https://credit-calculator.online/" target="_blank" rel="noopener noreferrer">
-              <div class="project-card__preview project-card__preview--calculator" aria-hidden="true">
-                <span class="preview__label">Кредитный калькулятор</span>
-                <span class="preview__value">12 500 ₽ / мес</span>
-                <span class="preview__chart"></span>
-              </div>
+            <a class="project-card__image-link" href="https://credit-calculator.online/" target="_blank"
+              rel="noopener noreferrer">
+              <img class="project-card__image" src="../credit_calculator/screenshots/desktop.jpg"
+                alt="Кредитный калькулятор — десктопная версия" width="1280" height="900" loading="lazy">
             </a>
             <div class="project-card__body">
               <h3 class="project-card__title">Кредитный калькулятор</h3>
@@ -190,10 +188,39 @@
           </article>
 
           <article class="project-card">
+            <a class="project-card__image-link" href="https://kindsem.github.io/Number_missions/" target="_blank"
+              rel="noopener noreferrer">
+              <img class="project-card__image" src="../Number_missions/screenshots/desktop.jpg"
+                alt="Нумерологический калькулятор Число Миссии — десктопная версия" width="1280" height="900"
+                loading="lazy">
+            </a>
+            <div class="project-card__body">
+              <h3 class="project-card__title">Число Миссии</h3>
+              <p class="project-card__text">
+                Нумерологический калькулятор: расчёт по дате рождения, поддержка мастер-чисел,
+                подробные описания миссий. Адаптивный интерфейс, валидация даты, примеры для проверки.
+              </p>
+              <ul class="tags">
+                <li class="tag">HTML</li>
+                <li class="tag">CSS</li>
+                <li class="tag">JavaScript</li>
+                <li class="tag">Калькулятор</li>
+              </ul>
+              <div class="project-card__links">
+                <a class="project-card__link" href="https://kindsem.github.io/Number_missions/" target="_blank"
+                  rel="noopener noreferrer">Демо</a>
+                <a class="project-card__link project-card__link--muted"
+                  href="https://github.com/Kindsem/Number_missions" target="_blank"
+                  rel="noopener noreferrer">Код</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
             <a class="project-card__image-link" href="https://kindsem.github.io/history_of_Russia/" target="_blank"
               rel="noopener noreferrer">
-              <img class="project-card__image" src="../history_of_Russia/img/Christ_the_Saviour_Cathedral_Moscow.jpg"
-                alt="Исторический сайт — храм Христа Спасителя" width="1200" height="675" loading="lazy">
+              <img class="project-card__image" src="../history_of_Russia/screenshots/desktop.jpg"
+                alt="Летописный свод России — десктопная версия" width="1280" height="900" loading="lazy">
             </a>
             <div class="project-card__body">
               <h3 class="project-card__title">Летописный свод России</h3>
@@ -233,8 +260,8 @@
             <p class="service__text">Исправлю вёрстку, доведу мобильную версию, устраню кроссбраузерные баги.</p>
           </article>
           <article class="service">
-            <h3 class="service__title">Вёрстка + JS</h3>
-            <p class="service__text">Калькуляторы, табы, аккордеоны, слайдеры и интерактив без тяжёлых фреймворков.</p>
+            <h3 class="service__title">Калькуляторы и формы</h3>
+            <p class="service__text">Кредитные, нумерологические и другие калькуляторы с валидацией, расчётами и адаптивным интерфейсом.</p>
           </article>
         </div>
       </div>
